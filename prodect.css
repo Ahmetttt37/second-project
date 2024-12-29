@@ -1,0 +1,481 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+.logo{
+    display: flex;
+    gap: 8px;
+}
+.logo :hover{
+    color: gray;
+    cursor: pointer;
+}
+.logo h2{
+    font-family: Arial, sans-serif;
+    margin-top: 8px;
+    /* border: 2px solid rgba(0, 0, 0, 0.849);
+    width: 13%;
+    padding: 4px;
+    position: relative;   */
+}
+.logo span{
+    color: rgb(255, 157, 0);
+}
+.logo span:hover{
+    color: gray;
+    cursor: pointer;
+}
+.logo p{
+    font-size: 0.6em;
+    position: absolute;
+    bottom: 92.4%;
+    left: 50px;
+    background-color: aliceblue;
+}
+.logo img{
+    width: 50px;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header ul li:hover{
+    color: orange;
+    cursor: pointer;
+}
+.header i{
+    font-size: 1.7em;
+    position: relative;
+    bottom: 5px;
+}
+.header i:hover{
+    color: orange;
+    cursor: pointer;
+}
+.part2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 90px;
+}
+.part2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 2px;
+}
+@keyframes anim1{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0);
+    }
+}
+#pp{
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+.qoral0{
+    border-bottom: 3px solid orangered;
+    border-left: none;
+    border-right: none;
+    width: 130px;
+    margin-left: 500px;
+}
+.qoral0 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.qoral0 span{
+    color: orange;
+}
+.qoral2{
+    border-bottom: 3px solid orangered;
+    border-left: none;
+    border-right: none;
+    width: 202px;
+    margin-left: 500px;
+}
+.qoral2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.qoral2 span{
+    color: orange;
+}
+.part3{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+.isku p{
+    color: rgb(131, 130, 130);
+    font-size: 0.9em;
+}
+.isku i{
+    color: orangered;
+    font-size: 0.8em;
+}
+.isku1 img{
+    background-color: whitesmoke;
+    height: 305px;
+}
+.isku1 p{
+    color: rgb(131, 130, 130);
+    font-size: 0.9em;
+}
+.isku1 i{
+    color: orangered;
+    font-size: 0.8em;
+}
+.isku2 img{
+    background-color: whitesmoke;
+    height: 305px;
+}
+.isku2 p{
+    color: rgb(131, 130, 130);
+    font-size: 0.9em;
+}
+.isku2 i{
+    color: orangered;
+    font-size: 0.8em;
+}
+.isku3 p{
+    color: rgb(131, 130, 130);
+    font-size: 0.9em;
+}
+.isku3 i{
+    color: orangered;
+    font-size: 0.8em;
+}
+.qoral3{
+    border-bottom: 3px solid orangered;
+    border-left: none;
+    border-right: none;
+    width: 170px;
+    margin-left: 500px;
+}
+.qoral3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.qoral3 span{
+    color: orange;
+}
+.part4{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+.isku8 img{
+    background-color: whitesmoke;
+    height: 305px;
+}
+.isku8 p{
+    color: rgb(131, 130, 130);
+    font-size: 0.9em;
+}
+.isku8 i{
+    color: orangered;
+    font-size: 0.8em;
+}
+.part5{
+    display: flex; 
+    justify-content: center;
+    gap: 80px;
+    margin-top: 80px;
+    background:linear-gradient(to right, #ffdadacc, #fee6e686);
+    padding-top: 10px;
+    height: 300px;
+}
+@keyframes anim6{
+    from{
+       transform: scale(0.9);
+    }
+    to{
+        transform: scale(0);
+    }
+}
+.part5 img{
+    width: 270px; 
+    animation-name: anim6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+.hh{
+    margin-top: 60px;
+}
+.hh h6{
+    color: grey;
+    font-size: 1em;
+}
+.hh h1{
+    font-size: 3.4em;
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+.hh p{
+    width: 400px;
+    color: grey;
+}
+.btn0{
+    padding: 9px 20px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.btn0:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+.footer1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+}
+.footer1 p{
+    color: grey;
+    font-size: 1em;
+    margin-top: 17px;
+}
+.footer1 img{
+    width: 110px;
+    position: relative;
+    bottom: 20px;
+}
+.imh{
+    display: flex;
+    gap: 10px;
+}
+#kk{
+    background-color: whitesmoke;
+    height: 70px;
+    position: relative;
+    top: 13px;
+}
+#uu{
+    width: 90px;
+    height: 70px;
+    position: relative;
+    top: 13px;
+    background-color: whitesmoke;
+}
+.footer2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-family: 2em;
+    border: 2px solid orangered;
+    width: 160px;
+    color: white;
+}
+.footer2 span{
+    color: orangered;
+}
+.footer2 p{
+    color: grey;
+    width: 420px;
+    margin-top: 15px;
+}
+.footer3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+}
+.footer3 p{
+    width: 88px;
+    color: grey;
+    margin-top: 15px;
+}
+.footer4 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+}
+.footer4 p{
+    width: 50px;
+    color: grey;
+    margin-top: 15px;
+}
+@media (max-width: 434px) and (min-width: 320px){
+    .header ul li{
+        display: none;
+    }
+    .header i{
+        position: relative;
+        right: 30px;
+        
+    }
+    .logo{
+        position: relative;
+        right: 40px;
+    }
+    .logo h2{
+        width: 200px;
+    }
+    .qoral0{
+        margin-left: 90px;
+
+    }
+    .part2{
+        display: block;
+    }
+    .part2 img{
+        width: 300px;
+        margin-left: 40px;
+    }
+    #pp{
+        margin-top: 15px;
+    }
+    #tt{
+        margin-top: 15px;
+    }
+    .qoral2{
+        margin-left: 90px;
+    }
+    .part3{
+        display: block;
+        margin-left: 80px;
+    }
+    .isku1 img{
+        margin-top: 20px;
+    }
+    .isku2 img{
+        margin-top: 20px;
+    }
+    .isku3 img{
+        margin-top: 20px;
+    }
+    .part4{
+        display: block;
+        margin-left: 80px;
+    }
+    .qoral3{
+        margin-left: 90px;
+    }
+    .isku8{
+        margin-top: 20px;
+    }
+    .part5{
+        /* display: block; */
+        padding: 0;
+    }
+    .part5 img{
+        width: 90px;
+        height: 200px;
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    .hh{
+        position: relative;
+        right: 60px;
+    }
+    .hh h1{
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+    .hh p{
+        width: 260px;
+        margin-top: 10px;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px; 
+    }
+    .footer1{
+        width: 100px;
+    }
+    .imh{
+        display: block;
+    }
+    .footer2 p{
+        width: 170px;
+    }
+    #kk{
+        width: 40px;
+        height: 40px;
+    }
+    #uu{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 888px) and (min-width: 720px){
+    .part2{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 90px;
+    }
+    .part2 img{
+        width: 270px;
+
+    }
+    .qoral0{
+        margin-left: 350px;
+    }
+    .qoral2{
+        margin-left: 350px;
+    }
+    .part3{
+        display: flex;
+        gap: 20px;
+    }
+    .isku1 img{
+        width: 170px;
+        height: 300px;
+    }
+    .isku2 img{
+        width: 170px;
+    }
+    .qoral3{
+        margin-left: 350px;
+    }
+    .part4{
+        display: flex;
+        gap: 20px;
+    }
+    .isku1 img{
+        width: 170px;
+        height: 300px;
+    }
+    .isku8 img{
+        width: 170px;
+    }
+
+
+}

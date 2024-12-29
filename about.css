@@ -1,0 +1,166 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(to right, #ffdada81, #fee6e686);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+.logo{
+    display: flex;
+    gap: 8px;
+}
+.logo :hover{
+    color: gray;
+    cursor: pointer;
+}
+.logo h2{
+    font-family: Arial, sans-serif;
+    margin-top: 8px;
+    /* border: 2px solid rgba(0, 0, 0, 0.849);
+    width: 13%;
+    padding: 4px;
+    position: relative;   */
+}
+.logo span{
+    color: rgb(255, 157, 0);
+}
+.logo span:hover{
+    color: gray;
+    cursor: pointer;
+}
+.logo p{
+    font-size: 0.6em;
+    position: absolute;
+    bottom: 92.4%;
+    left: 50px;
+    background-color: aliceblue;
+}
+.logo img{
+    width: 50px;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header ul li:hover{
+    color: orange;
+    cursor: pointer;
+}
+.header i{
+    font-size: 1.7em;
+    position: relative;
+    bottom: 5px;
+}
+.header i:hover{
+    color: orange;
+    cursor: pointer;
+}
+@keyframes anim1{
+    from{
+        transform: translatex(-550px);
+    }
+    to{
+        transform: translatex(0px);
+    }
+}
+@keyframes anim2{
+    from{
+        transform: translatex(550px);
+    }
+    to{
+        transform: translatex(0px);
+    }
+}
+.part60{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.main{
+    margin-top: 70px;
+    animation-name: anim1;
+    animation-duration: 3s;
+}
+.main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.main p{
+    color: grey;
+    width: 370px;
+    margin-top: 20px;
+}
+.btn0{
+    padding: 12px 30px;
+    background-color: rgb(255, 157, 0);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.btn0:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.sawir img{
+    width: 500px;
+    margin-top: 20px;
+    animation-name: anim2;
+    animation-duration: 3s;
+}
+@media (max-width: 434px) and (min-width: 320px){
+    .header ul li{
+        display: none;
+    }
+    .header i{
+        position: relative;
+        right: 30px;
+        
+    }
+    .logo{
+        position: relative;
+        right: 40px;
+    }
+    .logo h2{
+        width: 200px;
+    }
+    .part60{
+        display: block;
+    }
+    .main{
+        margin-left: 15px;
+    }
+    .main p{
+        width: 340px;
+    }
+    .sawir img{
+        width: 350px;
+    }
+}
+@media (max-width: 888px) and (min-width: 720px){
+    .sawir img{
+        width: 590px;
+    }
+    .part60{
+        display: block;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+    .main p{
+        width: 540px;
+    }
+
+}
