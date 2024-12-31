@@ -555,7 +555,7 @@ video{
     color: grey;
     margin-top: 15px;
 }
-@media (max-width: 434px) and (min-width: 360px){
+@media (max-width: 434px) and (min-width: 320px){
     .header ul li{
         display: none;
     }
